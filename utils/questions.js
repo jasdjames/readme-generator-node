@@ -1,28 +1,29 @@
 const questions = [
+    {
+        type: 'input',
+        message: 'What is your name?',
+        name: 'name',
+    },
+    {
+        type: 'input',
+        message: 'What is your location?',
+        name: 'location',
+    },
+    {
+        type: 'input',
+        message: 'What is your favorite hobby?',
+        name: 'hobby',
+    },
+    {
+        type: 'input',
+        message: 'What is your Github username?',
+        name: 'github',
+    },
+    {
+        type: 'input',
+        message: 'What is your LinkedIn URL?',
+        name: 'linkedin',
+    },
+];
 
-    inquirer
-    .prompt([
-      {
-        type: 'input',
-        message: 'What is your user name?',
-        name: 'username',
-      },
-      {
-        type: 'input',
-        message: 'What is your password?',
-        name: 'password',
-      },
-      {
-        type: 'input',
-        message: 'Re-enter password to confirm:',
-        name: 'confirm',
-      },
-    ])
-    // .then((response) =>
-    //   response.confirm === response.password
-    //     ? console.log('Success!')
-    //     : console.log('You forgot your password already?!')
-    // );
-]
-
-module export = questions;
+module.exports = questions;
