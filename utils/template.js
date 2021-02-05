@@ -1,10 +1,9 @@
 
 
-const buildReadmeTemplate = (userData) =>  
-async function  display () {
+const buildReadmeTemplate = (userData) =>  {
+// async function  display () {
     
-
-`
+const template = `
 ${userData.title}
 
 ## Description 
@@ -28,7 +27,7 @@ ${userData.install}
 ${userData.usage}
 
 ## License
-${userData.licence}
+${userData.license}
 
 
 
@@ -47,6 +46,8 @@ ${userData.questions}
 ${userData.email}
 
 `
+console.log('$$$$$$', template)
+return template
 };
 
 module.exports = buildReadmeTemplate;
