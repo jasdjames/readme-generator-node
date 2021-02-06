@@ -2,9 +2,9 @@
 
 const buildReadmeTemplate = (userData) =>  {
 // async function  display () {
-    
+// Object.userData.license2 = '' 
 const template = `
-${userData.title}
+${userData.title}${userData.license}
 
 ## Description 
 ${userData.description}
@@ -13,11 +13,10 @@ ${userData.description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
-
+* [License](#license)
 
 ## Installation
 ${userData.install}
@@ -25,9 +24,6 @@ ${userData.install}
 
 ## Usage 
 ${userData.usage}
-
-## License
-${userData.license}
 
 
 
@@ -45,6 +41,8 @@ ${userData.questions}
 (github.com/${userData.username})
 ${userData.email}
 
+## License
+${userData.licenseB}
 `
 console.log('$$$$$$', template)
 return template

@@ -36,6 +36,12 @@ const questions = [
         choices: ['MIT', 'Apache 2.0', 'GNU GPLv.3','The Unlicense']
     },
     {
+        type: 'list',
+        message: 'Just to confirm you would like ?',
+        name: 'licenseB',
+        choices: ['MIT', 'Apache 2.0', 'GNU GPLv.3','The Unlicense']
+    },
+    {
         type: 'input',
         message: 'Please write a statement about what someone should do if they have any questions for you',
         name: 'questions',
