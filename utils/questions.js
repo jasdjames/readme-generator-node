@@ -33,13 +33,13 @@ const questions = [
         type: 'list',
         message: 'What type of license would you like for your Readme?',
         name: 'license',
-        choices: ['MIT', 'Apache 2.0', 'GNU GPLv.3','The Unlicense']
+        choices: ['MIT', 'Apache 2.0', 'GNU GPLv.3', 'The Unlicense']
     },
     {
         type: 'list',
         message: 'Just to confirm you would like ?',
         name: 'licenseB',
-        choices: ['MIT', 'Apache 2.0', 'GNU GPLv.3','The Unlicense']
+        choices: ['MIT', 'Apache 2.0', 'GNU GPLv.3', 'The Unlicense']
     },
     {
         type: 'input',
@@ -53,7 +53,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What is your email address? ', 
+        message: 'What is your email address? ',
         name: 'email',
     },
 ];

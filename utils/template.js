@@ -1,9 +1,8 @@
 
 
-const buildReadmeTemplate = (userData) =>  {
-// async function  display () {
-// Object.userData.license2 = '' 
-const template = `
+const buildReadmeTemplate = (userData) => {
+
+    const template = `
 ${userData.title}${userData.license}
 
 ## Description 
@@ -44,8 +43,8 @@ ${userData.email}
 ## License
 ${userData.licenseB}
 `
-console.log('$$$$$$', template)
-return template
+    console.log('$$$$$$', template)
+    return template
 };
 
 module.exports = buildReadmeTemplate;
