@@ -33,7 +33,7 @@ No test were completed for the completion of this application
 
 ## Questions
 Contact Jasmine James via email or Github
-[jasdjames](github.com/jasdjames)
+[jasdjames](https://github.com/jasdjames/)
 jasdjames@gmail.com
 
 ## License
