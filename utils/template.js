@@ -37,7 +37,7 @@ ${userData.tests}
 ## Questions
 ${userData.questions}
 [${userData.username}]
-(github.com/${userData.username})
+(https://github.com/${userData.username})
 ${userData.email}
 
 ## License

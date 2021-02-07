@@ -1,5 +1,5 @@
 
-Readme Generator[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+Good README GEnerator[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Description 
 This application generates a README for the user. The Readme is saved as a new file in the application. The user can add edit the markdown file after answer the promoted questions. 
@@ -18,7 +18,7 @@ Typing `node index` will initialize the application. The questions are then prom
 
 
 ## Usage 
-The may be used by any developer to create a sucessful readme. Here is a link to the screencast of me using the generator ![ReadMe Video](https://screencast-o-matic.com/watch/crniVmRPQ2)
+The may be used by any developer to create a sucessful readme. Here is a link to the screencast of me using the generator [ReadMe Video](https://screencast-o-matic.com/watch/crniVmRPQ2)
 
 
 
@@ -32,7 +32,8 @@ No test were completed for the completion of this application
 
 ## Questions
 Contact Jasmine James via email or Github
-[jasdjames](github.com/jasdjames)
+[jasdjames]
+(https://github.com/jasdjames)
 jasdjames@gmail.com
 
 ## License
