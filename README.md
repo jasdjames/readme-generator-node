@@ -19,7 +19,7 @@ Typing `node index` will initialize the application. The questions are then prom
 
 
 ## Usage 
-The may be used by any developer to create a sucessful readme. Here is a link to the screencast of me using the generator ![ReadMe Video](https://screencast-o-matic.com/watch/crniVmRPQ2)
+The may be used by any developer to create a sucessful readme. Here is a link to the screencast of me using the generator [ReadMe Video](https://screencast-o-matic.com/watch/crniVmRPQ2)
 
 
 
